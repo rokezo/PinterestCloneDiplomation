@@ -1,0 +1,50 @@
+.admin-panel {
+  padding: 20px;
+  /* leave room for the fixed sidebar (60px width + 20px padding) */
+  margin-left: 80px;
+}
+
+.admin-panel h2 {
+  margin-bottom: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table tr.deactivated {
+  background-color: #f5f5f5;
+  color: #888;
+}
+
+.admin-table img {
+  border-radius: 50%;
+}
+
+.pagination {
+  margin-top: 10px;
+}
+
+/* container wrapper ensures content flows normally when sidebar is present */
+.admin-container {
+  /* if sidebar width changes update this accordingly */
+  padding-left: 80px;
+}
+
+.avatar-placeholder {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  background: #ccc;
+  border-radius: 50%;
+}
